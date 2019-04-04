@@ -1,0 +1,167 @@
+body {
+    background: url("https://bilder.t-online.de/b/78/14/08/64/id_78140864/tid_da/gesundheitsgefahren-beim-grillen-verkohlt-ist-immer-schlecht-.jpg") fixed no-repeat top right;
+    background-size: cover;
+    margin:auto;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.topnav form label{
+    font-size: 10px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #c2c2c2;
+}
+
+.topnav a#border_letf{
+    border-right-style: outset;
+    border-color: #cfc4c4;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a#list:hover {
+    background-color: #b1b1b1;
+    color: black;
+}
+
+.topnav a#list.active {
+    background-color: #959595;
+    color: white;
+}
+
+.topnav form.my_recherche {
+    float: left;
+    margin-left: 70px;
+    display: inline-flex
+}
+.topnav form.my_recherche input[type="text"]{
+    width: 400px;
+    margin: 8px 0;
+    padding: 0 0 0 0;
+}
+button {
+    min-width: 100px
+}
+button, input {
+    padding: 6px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: 13px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.20rem;
+}
+a.connection:link, a.connection:visited {
+    padding: 6px;
+    margin-top: 10px;
+    border: none;
+    margin-right: 10px;
+    font-size: 13px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.20rem;
+    text-decoration: none;
+    color: #444;
+}
+.topnav .connection{
+    float: right;
+}
+
+.topnav .connecter {
+    float: right;
+}
+.topnav label.connection {
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.topnav .connecter label {
+    margin-right: 30px;
+}
+
+
+input.editable, input#nonEditable {
+    resize: none;
+    border: none;
+    font-size: 18px;
+}
+input.editable:disabled, input#nonEditable:disabled{
+    background-color: transparent;
+    color: dimgrey;
+}
+
+textarea {
+    resize: none;
+    margin: auto;
+}
+
+img {
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background: silver;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 100px;
+    line-height: 150px;
+    color: red;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.carre_blanc{
+    background: rgba(255, 255, 255, 0.7);
+    margin: 50px 40% 50px 40%;
+    border: 1px solid black;
+    color : red;
+
+}
+
+.carre_blanc_grand{
+    background: rgba(255, 255, 255, 0.3);;
+    background-size: cover;
+    margin: 20px 20% 20px 20%;
+    padding-bottom: 2%;
+    border: 1px solid black;
+}
+
+.btn_centrer {
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    color:white;
+    text-decoration:none;
+    margin: auto;
+}

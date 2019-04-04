@@ -1,0 +1,34 @@
+Nous sommmes l'équipe 3 du groupe 3A composé de Alexis SOLA, Sebastien ANDREU, Nicolas ROHRBACH et Elouan TOURNEUR
+
+
+L' URL de notre site est : https://cook-and-burn.alwaysdata.net/Accueil
+
+Le projet est de réaliser un site web de cuisine nommé Cook & Burn. Le but de ce site web est de permettre aux clients de Cook & Burn
+d'avoir accès à un espace référençant des recettes qu'ils pourront réaliser.
+
+Nous avons utilisé le modèle MVC pour réaliser ce projet avec une partie CONTROLLER qui gère et synchronise les actions des utilisateurs, une
+partie MODEL qui gère les données de la base de donnée et une partie VIEW qui s'occupe de l'interface du site.
+
+Pour se servir de notre site web il faut avoir un accès internet ainsi qu'un navigateur web tel que Google Chrome, Firefox, Edge où l'on puisse
+rentrer l'adresse du site.
+
+Compte administrateur :
+    id : admin
+    pass : azerty
+
+Compte user :
+    id : Elouan
+    pass : azerty83
+
+Compte base de donnée :
+    id : 167335
+    pass : azerty
+
+Compte hébergement :
+    id : cook-and-burn_Alexis
+    pass : azerty
+
+Compte du système de version :
+    url : github.com/Alexis-Sola/versions
+
+
